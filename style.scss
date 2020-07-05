@@ -159,24 +159,26 @@ header{
                     font-size: 18px;
                 }
             }
+            .cta{
+                padding: 10px 0 0 0;
+            }
         }
-        
-    }
-    .cta{
-        padding: 10px 0 0 0;
-    }
-    .cover img{
-        height: 60%;
+        .cover img{
+            height: 60%;
+        }
         
     }
     .small-ball,.mid-ball,.big-ball{
         opacity: 0.2;
     }
 }
-
+//手機
 @media screen and(max-width: 414px){
-    .cta{
-        padding: 10px 0 0 0;
-        flex-direction: row;
+    .cover img{
+        width: 70%;
+        object-fit: contain;
+    }
+    .small-ball{
+        width: 0px;
     }
 }
